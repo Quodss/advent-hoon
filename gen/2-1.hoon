@@ -14,10 +14,8 @@
     .*  .  !=  ::  ++my fails without unsafe eval for some reason
     :-  p.a
     (turn q.a my)
-  =<  q
-  %^  spin  games  0
+  %+  roll  games
   |=  [g=game acc=@]
-  :-  g
   ?.  (valid-game g)
     acc
   (add acc id.g)
