@@ -19,14 +19,16 @@
   (rash (of-wain:format txt) get-input)
 =<  -<
 %-  sort-ranges
-%+  project-range  humi-loco
-%+  project-range  temp-humi
-%+  project-range  lyte-temp
-%+  project-range  watr-lyte
-%+  project-range  fert-watr
-%+  project-range  soil-fert
-%+  project-range  seed-soil
-seeds
+;:  project-range
+  humi-loco
+  temp-humi
+  lyte-temp
+  watr-lyte
+  fert-watr
+  soil-fert
+  seed-soil
+  seeds
+==
 ::
 ++  project-range
   |=  [m=(list (trel @ @ @)) r=range]
