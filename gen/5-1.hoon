@@ -18,14 +18,16 @@
 %+  turn  seeds
 |=  seed=@
 ^-  @
-%+  project  humi-loco
-%+  project  temp-humi
-%+  project  lyte-temp
-%+  project  watr-lyte
-%+  project  fert-watr
-%+  project  soil-fert
-%+  project  seed-soil
-seed
+;:  project
+  humi-loco
+  temp-humi
+  lyte-temp
+  watr-lyte
+  fert-watr
+  soil-fert
+  seed-soil
+  seed
+==
 ::
 |%
 ++  project
